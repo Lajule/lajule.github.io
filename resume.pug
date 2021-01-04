@@ -1,0 +1,209 @@
+- var title = "Julien Rouzières";
+- var name = "Julien Rouzières";
+- var func = "Software engineer";
+-
+  var picture = {
+    url: "https://www.gravatar.com/avatar/c0b784af08d8a7659f42b7474d1f0d03?s=180",
+    alt: "Julien Rouzières"
+  };
+-
+  var phone = {
+    href: "+33672738782",
+    number: "+33 (0)6 72 73 87 82"
+  };
+- var email = "julien.rouzieres@mac.com";
+-
+  var address = {
+    street: "3 Rue Stendhal (B52)",
+    city: "75020 Paris",
+    href: "https://www.google.com/maps/place/3+Rue+Stendhal,+75020+Paris/@48.8605048,2.4007081,17z/data=!3m1!4b1!4m5!3m4!1s0x47e66d85d936efab:0x7258e34ef92def26!8m2!3d48.8605013!4d2.4029021"
+  };
+-
+  var socials = {
+    "fa-github": "https://github.com/Lajule",
+    "fa-codepen": "https://codepen.io/Lajule"
+  };
+-
+  var skills = {
+    "C": {
+      "aliases": ["C++"],
+      "keywords": ["Autotools", "CMake"]
+    },
+    "Go": {
+      "keywords": ["Gin", "Gorm"]
+    },
+    "JavaScript": {
+      "aliases": ["TypeScript"],
+      "keywords": ["Angular", "Vue.js", "Karma", "Jasmine", "Webpack"]
+    },
+    "PHP": {
+      "keywords": ["Laravel", "Drupal"]
+    },
+    "Erlang": {
+      "aliases": ["Elixir"],
+      "keywords": ["Cowboy"]
+    },
+    "Java": {
+      "aliases": ["Scala"],
+      "keywords": ["Spring", "Hibernate", "Lombok", "JUnit", "Gradle", "Maven"]
+    },
+    "Node.js": {
+      "keywords": ["Express", "Sequelize", "pug", "pm2"]
+    },
+    "Apps": {
+      "keywords": ["Cordova", "Ionic"]
+    },
+    "Cloud": {
+      "keywords": ["AWS", "Heroku", "Salesforce", "Firebase"]
+    },
+    "DB": {
+      "keywords": ["PostgreSQL", "MySQL", "Oracle", "Redis", "MongoDB"]
+    },
+    "DevOps": {
+      "keywords": ["Ansible", "Docker"]
+    },
+    "Tools": {
+      "keywords": ["Jira", "Trello", "Git", "Jenkins", "Sonar"]
+    }
+  };
+- 
+  var events = [{
+    icon: "fa-university",
+    year: "2003",
+    name: "EPITA",
+    site: "http://www.epita.fr",
+    city: "Paris",
+    description: "Multimedia",
+    highlights: [
+      "Algorithms",
+      "Data structures",
+      "Programming language theory"
+    ]
+  }, {
+    icon: "fa-building-o",
+    year: "2004",
+    name: "CAPGEMINI",
+    site: "https://www.capgemini.com",
+    city: "Paris",
+    description: "Software consultant",
+    environments: {
+      "Languages": ["C", "C++", "Delphi", "Java"],
+      "Products": ["Oracle", "Tuxedo", "WebLogic"]
+    },
+    highlights: [
+      "V-Model",
+      "Software architecture",
+      "Detailed design",
+      "Software development"
+    ]
+  }, {
+    icon: "fa-building-o",
+    year: "2010",
+    name: "ULLINK",
+    site: "https://www.ullink.com",
+    city: "Paris",
+    description: "Software engineer",
+    environments: {
+      "Languages": ["Java"],
+      "Products": ["MySQL"]
+    },
+    highlights: [
+      "Scrum",
+      "Software development"
+    ]
+  }, {
+    icon: "fa-building-o",
+    year: "2013",
+    name: "VO2 IT MANAGEMENT",
+    site: "http://www.vo2-group.com",
+    city: "Paris",
+    description: "Software consultant",
+    environments: {
+      "Languages": ["JavaScript", "Ruby", "Swift", "Java"],
+      "Products": ["PostgreSQL", "MongoDB", "Redis", "Salesforce"]
+    },
+    highlights: [
+      "Pre-sales",
+      "Bleeding edge technology",
+      "Software architecture",
+      "Scrum",
+      "Software development"
+    ]
+  }, {
+    icon: "fa-building-o",
+    year: "2018",
+    name: "INTERENCHERES",
+    site: "https://www.interencheres.com",
+    city: "Paris",
+    description: "Software engineer",
+    environments: {
+      "Languages": ["JavaScript", "PHP"],
+      "Products": ["PostgreSQL", "Elasticsearch", "Redis", "Docker"]
+    },
+    highlights: [
+      "Bleeding edge technology",
+      "Software architecture",
+      "Scrum",
+      "Software development"
+    ]
+  }, {
+    icon: "fa-building-o",
+    year: "2020",
+    name: "RINGOVER",
+    site: "https://www.ringover.com",
+    city: "Paris",
+    description: "Software engineer",
+    environments: {
+      "Languages": ["Go"],
+      "Products": ["MySQL", "Docker"]
+    },
+    highlights: [
+      "Bleeding edge technology",
+      "Software architecture",
+      "Software development"
+    ]
+  }];
+-
+  var languages = [{
+    href: "/",
+    src: "images/fr.svg",
+    alt: "fr"
+  }, {
+    src: "images/gb.svg",
+    alt: "en"
+  }];
+-
+  var download = {
+    href: "https://s3-us-west-2.amazonaws.com/s.cdpn.io/321631/Julien%20ROUZIERES.pdf",
+    file: "Julien ROUZIERES.pdf"
+  };
+-
+  var interests = {
+    "fa-bicycle": "https://www.strava.com/athletes/35179863",
+    "fa-spotify": "https://open.spotify.com/user/lajule?si=413ZjPfISQm187tJRU6FNA"
+  };
+- var birthdate = "4th November 1978";
+- var nationality = "French";
+- var licence = "Driving licence (B)";
+- var copyright = "2021 Julien Rouzières";
+
+doctype html
+html(lang='fr')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+
+    title= title
+
+    link(rel='icon' href='images/favicon.ico')
+
+    link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css')
+    link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Exo|Vollkorn')
+    link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+    link(rel='stylesheet' href='styles/style.processed.css')
+    link(rel='stylesheet' href='styles/animation.processed.css')
+
+  body
+    include includes/_body.pug
+
+    script(src='scripts/main.js')

@@ -1,0 +1,116 @@
+.basics-wrapper
+  .basics
+    p.name= name
+    p.func= func
+    .picture
+      img(src=picture.url alt=picture.alt)
+    p.phone
+      i.fa.fa-phone.fa-lg(aria-hidden='true')
+      | &nbsp;
+      a(href='tel:' + phone.href) !{phone.number}
+    p.email
+      i.fa.fa-envelope-o.fa-lg(aria-hidden='true')
+      | &nbsp;
+      a(href='mailto:' + email) !{email}
+    .location
+      i.fa.fa-map-marker.fa-lg(aria-hidden='true')
+      | &nbsp;
+      a(href=address.href)
+        span.street !{address.street}
+        br
+        span.city !{address.city}
+
+ul.socials
+  each account, icon in socials
+    li
+      a(href=account target='_blank')
+        i.fa.fa-3x(class=icon aria-hidden='true')
+
+ul.skills
+  each skill, name in skills
+    li.skill
+      p.name= name
+      ul.aliases
+        if skill.aliases
+          each alias in skill.aliases
+            li= alias
+      ul.keywords
+        if skill.keywords
+          each keyword in skill.keywords
+            li= keyword
+
+ul.timeline
+  each event in events
+    li.event
+      i.fa.fa-2x(class=event.icon aria-hidden='true')
+      p.year= event.year
+      .details
+        p.name= event.name
+        p.site
+          i.fa.fa-link.fa-lg(aria-hidden='true')
+          | &nbsp;
+          a(href=event.site target="_blank")= event.site
+        p.city= event.city
+        p.description= event.description
+        .highlights-wrapper
+          ul.highlights
+            each highlight in event.highlights
+              li
+                i.fa.fa-arrow-circle-o-right(aria-hidden='true')
+                |  #{highlight}
+        if event.environments
+          ul.environments
+            each entries, type in event.environments
+              li.environment
+                p.type= type
+                ul.entries
+                  each entry in entries
+                    li= entry
+
+ul.interests
+  each url, icon in interests
+    li
+      a(href=url target='_blank')
+        i.fa.fa-3x(class=icon aria-hidden='true')
+
+.personnal
+  ul.informations
+    li
+      i.fa.fa-calendar.fa-lg(aria-hidden='true')
+      |  #{birthdate}
+    li
+      i.fa.fa-flag-o.fa-lg(aria-hidden='true')
+      |  #{nationality}
+    li
+      i.fa.fa-id-card-o.fa-lg(aria-hidden='true')
+      |  #{licence}
+
+  ul.informations
+    li
+      i.fa.fa-quote-left(aria-hidden='true')
+      | &nbsp;
+      a(href='https://github.com/python/peps/blob/master/pep-0020.txt' target='_blank') The Zen of Python
+      | &nbsp;
+      i.fa.fa-quote-right(aria-hidden='true')
+    li
+      i.fa.fa-download.fa-lg(aria-hidden='true')
+      | &nbsp;
+      a(href='https://assets.codepen.io/321631/style.scss' target='_blank') style.scss
+    li
+      i.fa.fa-file-pdf-o.fa-lg(aria-hidden='true')
+      | &nbsp;
+      a(href=download.href)= download.file
+
+  ul.informations
+    li
+      i.fa.fa-copyright.fa-lg(aria-hidden='true')
+      |  #{copyright}
+
+ul.languages
+  each language in languages
+    li
+      if language.href
+        a(href=language.href)
+          img(src=language.src alt=language.alt)
+      else
+        img(src=language.src alt=language.alt)

@@ -1,0 +1,9 @@
+.flip {
+  animation: flip 2s ease-out 1;
+}
+
+@keyframes flip {
+  100% {
+    transform: rotateX(360deg);
+  }
+}
