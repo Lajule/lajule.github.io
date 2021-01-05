@@ -1,0 +1,285 @@
+$primary: #12232e;
+$secondary: #007cc7;
+$thrid: #4da8da;
+$fourth: #203647;
+$fifth: #eefbfb;
+
+html,
+body {
+  height: 100%;
+  color: #ffffff;
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+}
+
+.basics-wrapper {
+  display: flex;
+  flex-direction: row;
+  background: $primary;
+  justify-content: center;
+
+  .basics {
+    .name {
+      margin: 20px 0 10px;
+      text-align: center;
+      font-size: 3.7rem;
+      font-weight: bold;
+    }
+
+    .func {
+      margin: 10px 0;
+      text-align: center;
+      font-size: 2.3rem;
+    }
+
+    .picture {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      img {
+        border-radius: 50%;
+        margin: 10px 0;
+      }
+    }
+
+    .email,
+    .phone {
+      margin: 10px 0;
+      text-align: center;
+
+      a {
+        color: #ffffff;
+      }
+    }
+
+    .location {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin: 10px 0 20px;
+      text-align: center;
+
+      a {
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+
+  li {
+    flex-grow: 1;
+    padding: 40px;
+    text-align: center;
+
+    @for $i from 1 to 3 {
+      &:nth-child(#{$i}) {
+        background: darken($primary, $i * 2%);
+      }
+    }
+
+    a {
+      color: #ffffff;
+    }
+  }
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  .skill {
+    flex-grow: 1;
+    flex-basis: calc((100% / 7) - 40px);
+    padding: 20px;
+    text-align: center;
+
+    @for $i from 1 to 14 {
+      &:nth-child(#{$i}) {
+        background: darken($secondary, $i * 2%);
+      }
+    }
+
+    .name {
+      font-size: 3.2rem;
+      font-weight: bold;
+    }
+
+    .aliases {
+      display: flex;
+      height: 30px;
+      flex-direction: row;
+      justify-content: space-around;
+      font-size: 0.9rem;
+      font-style: italic;
+    }
+
+    .keywords {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      font-family: "Vollkorn", sans-serif;
+    }
+  }
+}
+
+.timeline {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+  }
+
+  .event {
+    flex-grow: 1;
+    flex-basis: calc((100% / 3) - 40px);
+    padding: 20px;
+
+    @for $i from 1 to 9 {
+      &:nth-child(#{$i}) {
+        background: darken($thrid, $i * 2%);
+      }
+    }
+
+    & > i:nth-child(1) {
+      float: left;
+    }
+
+    .year {
+      margin: 40px 0 20px;
+      font-size: 4.2rem;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .details {
+      .name {
+        margin-top: 10px;
+        font-size: 2.1rem;
+        text-align: center;
+      }
+
+      .site {
+        margin: 5px 0;
+        text-align: center;
+
+        a {
+          color: #ffffff;
+        }
+      }
+
+      .city {
+        text-align: center;
+      }
+
+      .description {
+        margin: 20px;
+        font-size: 1.8rem;
+        text-align: center;
+      }
+
+      .highlights-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        min-height: 155px;
+
+        .highlights {
+          margin: 20px 0;
+          font-family: "Vollkorn", sans-serif;
+
+          li {
+            margin: 5px 0;
+          }
+        }
+      }
+
+      .environments {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .environment {
+          margin: 0 20px;
+
+          .type {
+            margin: 5px 0;
+            font-weight: bold;
+          }
+
+          .entries {
+            font-family: "Vollkorn", sans-serif;
+          }
+        }
+      }
+    }
+  }
+}
+
+.interests {
+  color: #000000;
+  display: flex;
+  flex-direction: row;
+
+  li {
+    flex-grow: 1;
+    padding: 40px;
+    text-align: center;
+
+    @for $i from 1 to 3 {
+      &:nth-child(#{$i}) {
+        background: darken($fifth, $i * 2%);
+      }
+    }
+  }
+
+  a {
+    color: #000000;
+  }
+}
+
+.personnal {
+  color: #000000;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px 0 60px;
+  height: 360px;
+  background: $fifth;
+  justify-content: center;
+
+  a {
+      color: #000000;
+  }
+
+  .informations {
+    li {
+      margin: 40px 40px 0;
+    }
+  }
+}
+
+.languages {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 0;
+
+  li {
+    flex-grow: 1;
+    padding: 40px;
+    text-align: center;
+
+    img {
+      height: 33px;
+      width: 40px;
+    }
+  }
+}
