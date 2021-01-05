@@ -1,7 +1,7 @@
 DOCKER := docker
 
 %.html: %.pug
-	$(DOCKER) run -it --rm -u $$(id -u):$$(id -g) -v $$PWD:/src/app -w /src/app leandrosouza/pug pug --client --no-debug $<
+	-$(DOCKER) run -it --rm -u $$(id -u):$$(id -g) -v $$PWD:/src/app -w /src/app leandrosouza/pug pug $<
 
 index.html: index.pug
 
