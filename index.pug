@@ -165,11 +165,11 @@
   }];
 -
   var languages = [{
-    src: "images/fr.svg",
+    src: "assets/fr.svg",
     alt: "fr"
   }, {
     href: "resume.html",
-    src: "images/gb.svg",
+    src: "assets/gb.svg",
     alt: "en"
   }];
 -
@@ -190,7 +190,7 @@ html(lang='fr')
 
     title= title
 
-    link(rel='icon' href='images/favicon.ico')
+    link(rel='icon' href='assets/favicon.ico')
 
     link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css')
     link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Exo|Vollkorn')
@@ -199,6 +199,6 @@ html(lang='fr')
     link(rel='stylesheet' href='styles/animation.processed.css')
 
   body
-    include includes/_body.pug
+    include _body.pug
 
     script(src='scripts/main.js')
