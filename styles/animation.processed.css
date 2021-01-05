@@ -1,1 +1,2 @@
-.flip{-webkit-animation:flip 2s ease-out 1;animation:flip 2s ease-out 1}@-webkit-keyframes flip{100%{transform:rotateX(360deg)}}@keyframes flip{100%{transform:rotateX(360deg)}}
+.flip{-webkit-animation:flip 2s ease-out 1;animation:flip 2s ease-out 1}@-webkit-keyframes flip{to{transform:rotateX(1turn)}}@keyframes flip{to{transform:rotateX(1turn)}}
+/*# sourceMappingURL=animation.processed.css.map */
