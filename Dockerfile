@@ -5,4 +5,4 @@ RUN npm install -g pug-cli \
 	html-minifier \
 	uglify-js \
 	postcss postcss-cli cssnano autoprefixer \
-	http-server
+	browser-sync
