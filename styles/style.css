@@ -118,9 +118,6 @@ body {
 .skills .skill:nth-child(12) {
   background: #00304d;
 }
-.skills .skill:nth-child(13) {
-  background: #002942;
-}
 .skills .skill .name {
   font-size: 3.2rem;
   font-weight: bold;
@@ -173,12 +170,6 @@ body {
 }
 .timeline .event:nth-child(6) {
   background: #288bc2;
-}
-.timeline .event:nth-child(7) {
-  background: #2685b9;
-}
-.timeline .event:nth-child(8) {
-  background: #257fb1;
 }
 .timeline .event > i:nth-child(1) {
   float: left;
