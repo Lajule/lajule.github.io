@@ -13,7 +13,7 @@ styles/style.processed.css:
 	docker run -it --rm -u $(ID) -v $$PWD:/src/app -w /src/app toolbox postcss -m -u autoprefixer -u cssnano -o styles/style.processed.css styles/style.css
 
 scripts/main.processed.js:
-	docker run -it --rm -u $(ID) -v $$PWD:/src/app -w /src/app toolbox uglifyjs scripts/main.js -o scripts/main.processed.js -c -m --source-map url=main.processed.js.map
+	docker run -it --rm -u $(ID) -v $$PWD:/src/app -w /src/app toolbox uglifyjs scripts/main.js -o scripts/main.processed.js -c -m --source-map
 
 .PHONY: all clean serve
 
