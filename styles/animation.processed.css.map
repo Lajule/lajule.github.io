@@ -1,1 +1,0 @@
-{"version":3,"sources":["animation.css"],"names":[],"mappings":"AAAA,MACE,oCAA6B,CAA7B,4BACF,CAEA,wBACE,GACE,wBACF,CACF,CAJA,gBACE,GACE,wBACF,CACF","file":"animation.processed.css","sourcesContent":[".flip {\n  animation: flip 2s ease-out 1;\n}\n\n@keyframes flip {\n  100% {\n    transform: rotateX(360deg);\n  }\n}\n"]}
