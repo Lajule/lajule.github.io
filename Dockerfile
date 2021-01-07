@@ -1,4 +1,4 @@
-FROM node
+FROM node:alpine
 MAINTAINER Julien ROUZIERES <julien.rouzieres@mac.com>
 
 RUN npm install -g \
@@ -6,5 +6,3 @@ RUN npm install -g \
 	postcss postcss-cli cssnano autoprefixer \
 	uglify-js \
 	browser-sync
-
-USER 1000:1000
