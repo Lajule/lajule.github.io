@@ -1,6 +1,7 @@
 .PHONY: all clean dev
 
-OBJS=index.html resume.html \
+OBJS=index.html \
+  resume.html \
   styles/style.processed.css \
   scripts/main.processed.js
 
@@ -13,21 +14,20 @@ all: $(OBJS)
 
 clean:
 	$(RM) *.html \
-		styles/*.processed.css styles/*.processed.css.map \
-		scripts/*.processed.js
+	  styles/*.processed.css styles/*.processed.css.map \
+	  scripts/*.processed.js
 
 dev:
 	docker run -d $(DOCKERFLAGS) --name lajule-bs --network host lajulebox \
-		browser-sync start \
-			--server \
-			--files "*.html,styles/*.processed.css,scripts/*.processed.js" \
-			--no-open
+	  browser-sync start \
+	    -s -f '*.html' '**/*.processed.css' '**/*.processed.js' --no-open
 
 %.html: %.pug
 	docker run -it $(DOCKERFLAGS) lajulebox pug $<
 
 %.processed.css: %.css
-	docker run -it $(DOCKERFLAGS) lajulebox postcss -m -u autoprefixer -u cssnano -o $@ $<
+	docker run -it $(DOCKERFLAGS) lajulebox \
+	  postcss -m -u autoprefixer -u cssnano -o $@ $<
 
 %.processed.js: %.js
 	docker run -it $(DOCKERFLAGS) lajulebox uglifyjs $< -o $@ -c -m
