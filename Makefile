@@ -1,5 +1,3 @@
-.PHONY: all clean dev
-
 OBJS=index.html \
   resume.html \
   styles/style.processed.css \
@@ -31,3 +29,5 @@ dev:
 
 %.processed.js: %.js
 	docker run -it $(DOCKERFLAGS) lajulebox uglifyjs $< -o $@ -c -m
+
+.PHONY: all clean dev
