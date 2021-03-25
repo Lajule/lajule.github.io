@@ -16,7 +16,7 @@ clean:
 	  scripts/*.processed.js
 
 dev:
-	docker run -d $(DOCKERFLAGS) --name lajule-bs --network host lajulebox \
+	docker run -d $(DOCKERFLAGS) -p 3000:3000 -p 3001:3001 lajulebox \
 	  browser-sync start \
 	    -s -f '*.html' '**/*.processed.css' '**/*.processed.js' --no-open
 
