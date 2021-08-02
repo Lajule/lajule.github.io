@@ -4,8 +4,8 @@ OBJS=index.html \
   scripts/main.processed.js
 
 DOCKERFLAGS=--rm \
-  -u $(shell id -u):$(shell id -g) \
-  -v $$PWD:/usr/src/app \
+  -u "$(shell id -u):$(shell id -g)" \
+  -v "$${PWD}:/usr/src/app" \
   -w /usr/src/app
 
 all: $(OBJS)

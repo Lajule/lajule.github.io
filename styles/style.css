@@ -78,7 +78,7 @@ body {
 }
 .skills .skill {
   flex-grow: 1;
-  flex-basis: calc((100% / 7) - 40px);
+  flex-basis: calc((100% / 3) - 40px);
   padding: 20px;
   text-align: center;
 }
@@ -100,24 +100,6 @@ body {
 .skills .skill:nth-child(6) {
   background: #00568a;
 }
-.skills .skill:nth-child(7) {
-  background: #005080;
-}
-.skills .skill:nth-child(8) {
-  background: #004975;
-}
-.skills .skill:nth-child(9) {
-  background: #00436b;
-}
-.skills .skill:nth-child(10) {
-  background: #003c61;
-}
-.skills .skill:nth-child(11) {
-  background: #003657;
-}
-.skills .skill:nth-child(12) {
-  background: #00304d;
-}
 .skills .skill .name {
   font-size: 3.2rem;
   font-weight: bold;
@@ -135,6 +117,12 @@ body {
   flex-direction: column;
   justify-content: space-around;
   font-family: "Vollkorn", sans-serif;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .skills {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .timeline {
