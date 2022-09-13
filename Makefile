@@ -1,9 +1,9 @@
-OBJS=index.html \
+OBJS = index.html \
   resume.html \
   styles/style.processed.css \
   scripts/main.processed.js
 
-DOCKERFLAGS=--rm \
+DOCKERFLAGS = --rm \
   -u "$(shell id -u):$(shell id -g)" \
   -v "$${PWD}:/usr/src/app" \
   -w /usr/src/app
