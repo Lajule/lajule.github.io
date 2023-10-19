@@ -67,6 +67,9 @@ body {
 .socials li:nth-child(2) {
   background: #0c181f;
 }
+.socials li:nth-child(3) {
+  background: #060c0f;
+}
 .socials li a {
   color: #ffffff;
 }
