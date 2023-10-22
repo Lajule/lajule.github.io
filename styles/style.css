@@ -58,6 +58,7 @@ body {
 }
 .socials li {
   flex-grow: 1;
+  flex-basis: calc((100% / 3) - 80px);
   padding: 40px;
   text-align: center;
 }
