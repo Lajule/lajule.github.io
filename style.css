@@ -18,3 +18,31 @@ html {
 a {
   color: var(--green);
 }
+
+
+.me {
+    display: flex;
+    flex-direction: row;
+
+    img {
+	border-radius: 50%;
+    }
+
+    ul li {
+	display: inline;
+    }
+}
+
+.top-skills li {
+    display: inline;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    div {
+	width: 33%;
+    }
+}
