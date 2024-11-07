@@ -1,5 +1,6 @@
 @import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 :root {
   --green: #3d5300;
@@ -10,14 +11,10 @@
 
 html {
     background: var(--sage);
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
 }
 
-.me {
-    width: 100%;
-    display: flex;
-    gap: 16px;
-}
-
-.grow1 {
-    flex-grow: 1;
+a {
+  color: var(--green);
 }
