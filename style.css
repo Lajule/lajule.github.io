@@ -17,18 +17,58 @@
 html {
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
+    background-color: var(--sage);
+    color: var(--green);
+}
+
+a {
+    color: black;
 }
 
 .container {
     width: 90%;
     max-width: 1200px;
     margin: 20px auto;
+    background-color: var(--orange);
+}
+
+header {
+    display: flex;
+    flex-direction: row;
 }
 
 .me {
-    background-image: url("https://www.gravatar.com/avatar/c0b784af08d8a7659f42b7474d1f0d03?s=180");
-    background-repeat: no-repeat;
-    background-position: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile {
+    margin: 20px;
+}
+
+.experiences {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    section {
+	margin: 20px;
+    }
+}
+
+.bar {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.list {
+    list-style-type: none;
+
+    li::before {
+	content: "\f18e\00a0";
+	font-family: "FontAwesome";
+    }
 }
 
 @media (min-width: 768px) {
