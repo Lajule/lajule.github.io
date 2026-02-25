@@ -16,12 +16,14 @@
 # TOP SKILLS
 
 | C/C++, Go, JavaScript | Docker, Kubernetes  | Git, Jira, Confluence |
+| :---: | :---: | :---: |
 
 ---
 
 # EDUCATION
 
 | [Epita](https://www.epita.fr) \- Multimedia 2003 Paris | Algorithms Data structures, Programming language theory |
+| :---: | :---: |
 
 ---
 
@@ -33,6 +35,7 @@
 | [Interencheres](https://www.interencheres.com) \- Software Engineer **2018** Paris | JavaScript, PostgreSQL, Elasticsearch Scrum, Software design and development |
 | [Ringover](https://www.ringover.com) \- Lead Backend Developer **2020** Paris | Go, TiDB, NATS, Raft, HSM Scrum, Management, Software design and development |
 | [Scaleway](https://www.scaleway.com) \- Engineering Manager **2024** Paris | Go, PostgreSQL, Clickhouse, Kubernetes Scrum, Management, Software design and development |
+| :---: | :---: |
 
 ---
 
@@ -121,13 +124,14 @@ Build and Run of several back office and billing services.
 # HOBBIES
 
 | 🚴 Bikepacking | 🎮 Gaming | 🔱 Spearfishing |
+| :---: | :---: | :---: |
 
 ---
 
 # PERSONAL PROJECTS
 
 | patterns<br>[https://github.com/Lajule/patterns](https://github.com/Lajule/patterns)<br>Popular design patterns written with C++ template classes. | ljs<br>[https://github.com/Lajule/ljs](https://github.com/Lajule/ljs)<br>Little JSON Server is a "build your own" version of the famous [JSON Server](https://github.com/typicode/json-server) written in less than 500 lines of C. | dice<br>[https://github.com/Lajule/dice](https://github.com/Lajule/dice)<br>Roll a dice from the command line. |
-
+| :---: | :---: | :---: |
 
 [The Zen of Python](https://peps.python.org/pep-0020/)
 © 2024 Julien Rouzières
