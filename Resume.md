@@ -22,7 +22,8 @@
 
 # **EDUCATION**
 
-| [Epita](https://www.epita.fr) \- Multimedia 2003 Paris | Algorithms Data structures Programming language theory |
+| [Epita](https://www.epita.fr) \- Multimedia 2003 Paris | Algorithms Data structures  
+Programming language theory |
 | :---- | :---- |
 
 ---
