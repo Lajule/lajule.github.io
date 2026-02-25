@@ -15,27 +15,27 @@
 
 # TOP SKILLS
 
-| C/C++, Go, JavaScript | Docker, Kubernetes  | Git, Jira, Confluence |
 | :---: | :---: | :---: |
+| C/C++, Go, JavaScript | Docker, Kubernetes  | Git, Jira, Confluence |
 
 ---
 
 # EDUCATION
 
-| [Epita](https://www.epita.fr) \- Multimedia 2003 Paris | Algorithms Data structures, Programming language theory |
 | :---: | :---: |
+| [Epita](https://www.epita.fr) \- Multimedia 2003 Paris | Algorithms Data structures, Programming language theory |
 
 ---
 
 # EXPERIENCES
 
+| :---- | :---- |
 | [Capgemini](https://www.capgemini.com) \- Software Consultant 2004 Paris | C/C++, Java, Oracle V-Model, Software design and development |
 | [Ullink](https://www.ullink.com) \- Software Engineer **2010** Paris | Java, MySQL Scrum, Software development |
 | [VO2 Group](http://www.vo2-group.com) \- Software Consultant **2013** Paris | JavaScript, Java, PostgreSQL, Salesforce Pre-sales, Scrum, Software design and development |
 | [Interencheres](https://www.interencheres.com) \- Software Engineer **2018** Paris | JavaScript, PostgreSQL, Elasticsearch Scrum, Software design and development |
 | [Ringover](https://www.ringover.com) \- Lead Backend Developer **2020** Paris | Go, TiDB, NATS, Raft, HSM Scrum, Management, Software design and development |
 | [Scaleway](https://www.scaleway.com) \- Engineering Manager **2024** Paris | Go, PostgreSQL, Clickhouse, Kubernetes Scrum, Management, Software design and development |
-| :---: | :---: |
 
 ---
 
