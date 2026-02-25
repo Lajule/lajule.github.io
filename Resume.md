@@ -29,13 +29,13 @@
 
 # EXPERIENCES
 
-| [Capgemini](https://www.capgemini.com) \- Software Consultant 2004 Paris | C/C++, Java, Oracle V-Model, Software design and development |
-| :---- | :---- |
-| [Ullink](https://www.ullink.com) \- Software Engineer **2010** Paris | Java, MySQL Scrum, Software development |
-| [VO2 Group](http://www.vo2-group.com) \- Software Consultant **2013** Paris | JavaScript, Java, PostgreSQL, Salesforce Pre-sales, Scrum, Software design and development |
-| [Interencheres](https://www.interencheres.com) \- Software Engineer **2018** Paris | JavaScript, PostgreSQL, Elasticsearch Scrum, Software design and development |
-| [Ringover](https://www.ringover.com) \- Lead Backend Developer **2020** Paris | Go, TiDB, NATS, Raft, HSM Scrum, Management, Software design and development |
 | [Scaleway](https://www.scaleway.com) \- Engineering Manager **2024** Paris | Go, PostgreSQL, Clickhouse, Kubernetes Scrum, Management, Software design and development |
+| :---- | :---- |
+| [Ringover](https://www.ringover.com) \- Lead Backend Developer **2020** Paris | Go, TiDB, NATS, Raft, HSM Scrum, Management, Software design and development |
+| [Interencheres](https://www.interencheres.com) \- Software Engineer **2018** Paris | JavaScript, PostgreSQL, Elasticsearch Scrum, Software design and development |
+| [VO2 Group](http://www.vo2-group.com) \- Software Consultant **2013** Paris | JavaScript, Java, PostgreSQL, Salesforce Pre-sales, Scrum, Software design and development |
+| [Ullink](https://www.ullink.com) \- Software Engineer **2010** Paris | Java, MySQL Scrum, Software development |
+| [Capgemini](https://www.capgemini.com) \- Software Consultant 2004 Paris | C/C++, Java, Oracle V-Model, Software design and development |
 
 ---
 
@@ -130,14 +130,14 @@ Build and Run of several back office and billing services.
 
 # PERSONAL PROJECTS
 
-- patterns [https://github.com/Lajule/patterns](https://github.com/Lajule/patterns)
+- **patterns** [https://github.com/Lajule/patterns](https://github.com/Lajule/patterns)
 
 	Popular design patterns written with C++ template classes.
-- ljs [https://github.com/Lajule/ljs](https://github.com/Lajule/ljs)
+- **ljs** [https://github.com/Lajule/ljs](https://github.com/Lajule/ljs)
 
 	Little JSON Server is a "build your own" version of the famous [JSON Server](https://github.com/typicode/json-server) written in less than 500 lines of C.
 
-- dice [https://github.com/Lajule/dice](https://github.com/Lajule/dice)
+- **dice** [https://github.com/Lajule/dice](https://github.com/Lajule/dice)
 
 	Roll a dice from the command line.
 
