@@ -130,8 +130,20 @@ Build and Run of several back office and billing services.
 
 # PERSONAL PROJECTS
 
-| patterns <br> [https://github.com/Lajule/patterns](https://github.com/Lajule/patterns) <br >Popular design patterns written with C++ template classes. | ljs <br> [https://github.com/Lajule/ljs](https://github.com/Lajule/ljs) <br> Little JSON Server is a "build your own" version of the famous [JSON Server](https://github.com/typicode/json-server) written in less than 500 lines of C. | dice <br> [https://github.com/Lajule/dice](https://github.com/Lajule/dice)<br>Roll a dice from the command line. |
-| :---: | :---: | :---: |
+- patterns [https://github.com/Lajule/patterns](https://github.com/Lajule/patterns)
+
+	Popular design patterns written with C++ template classes.
+- ljs [https://github.com/Lajule/ljs](https://github.com/Lajule/ljs)
+
+	Little JSON Server is a "build your own" version of the famous [JSON Server](https://github.com/typicode/json-server) written in less than 500 lines of C.
+
+- dice [https://github.com/Lajule/dice](https://github.com/Lajule/dice)
+
+	Roll a dice from the command line.
+
+- ...
+
+---
 
 [The Zen of Python](https://peps.python.org/pep-0020/)
 © 2024 Julien Rouzières
