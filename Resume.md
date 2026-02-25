@@ -13,24 +13,21 @@
 
 ---
 
-# **TOP SKILLS**
+# TOP SKILLS
 
 | C/C++, Go, JavaScript | Docker, Kubernetes  | Git, Jira, Confluence |
-| :---- | :---- | :---- |
 
 ---
 
-# **EDUCATION**
+# EDUCATION
 
 | [Epita](https://www.epita.fr) \- Multimedia 2003 Paris | Algorithms Data structures, Programming language theory |
-| :---- | :---- |
 
 ---
 
-# **EXPERIENCES**
+# EXPERIENCES
 
 | [Capgemini](https://www.capgemini.com) \- Software Consultant 2004 Paris | C/C++, Java, Oracle V-Model, Software design and development |
-| :---- | :---- |
 | [Ullink](https://www.ullink.com) \- Software Engineer **2010** Paris | Java, MySQL Scrum, Software development |
 | [VO2 Group](http://www.vo2-group.com) \- Software Consultant **2013** Paris | JavaScript, Java, PostgreSQL, Salesforce Pre-sales, Scrum, Software design and development |
 | [Interencheres](https://www.interencheres.com) \- Software Engineer **2018** Paris | JavaScript, PostgreSQL, Elasticsearch Scrum, Software design and development |
@@ -39,7 +36,7 @@
 
 ---
 
-# **DETAILED EXPERIENCES**
+# DETAILED EXPERIENCES
 
 [Scaleway](https://www.scaleway.com) \- Engineering Manager  
 **2024** Paris  
@@ -121,15 +118,16 @@ Build and Run of several back office and billing services.
 
 ---
 
-# **HOBBIES**
+# HOBBIES
 
 | 🚴 Bikepacking | 🎮 Gaming | 🔱 Spearfishing |
-| :---: | :---: | :---: |
 
 ---
 
-# **PERSONAL PROJECTS**
+# PERSONAL PROJECTS
 
-| patterns [https://github.com/Lajule/patterns](https://github.com/Lajule/patterns) Popular design patterns written with C++ template classes.  | ljs [https://github.com/Lajule/ljs](https://github.com/Lajule/ljs) Little JSON Server is a "build your own" version of the famous [JSON Server](https://github.com/typicode/json-server) written in less than 500 lines of C. | dice [https://github.com/Lajule/dice](https://github.com/Lajule/dice)  Roll a dice from the command line.  |
-| ----- | ----- | ----- |
+| patterns<br>[https://github.com/Lajule/patterns](https://github.com/Lajule/patterns)<br>Popular design patterns written with C++ template classes. | ljs<br>[https://github.com/Lajule/ljs](https://github.com/Lajule/ljs)<br>Little JSON Server is a "build your own" version of the famous [JSON Server](https://github.com/typicode/json-server) written in less than 500 lines of C. | dice<br>[https://github.com/Lajule/dice](https://github.com/Lajule/dice)<br>Roll a dice from the command line. |
 
+
+[The Zen of Python](https://peps.python.org/pep-0020/)
+© 2024 Julien Rouzières
