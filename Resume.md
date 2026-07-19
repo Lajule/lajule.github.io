@@ -28,7 +28,7 @@
 **[Epita](https://www.epita.fr) - Multimedia** | 2003 Paris
 - Algorithms
 - Data structures
-- Programming language theory
+- Programming languages theory
 
 ---
 
